@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* THESE ARE THE STYLES FOR THE CONTAINER WITH THE INDIVIDUAL LETTERS! STYLES FOR THE WORD LETTERS
+ARE IN THE APP.CSS AND ARE WITH A FLEX DISPLAY - THEY ARE UDNER A letterContainer CLASS (NO S, UNLIKE HERE!)*/
+.lettersContainer{
+  display: grid;
+  grid-template-columns: repeat(13, 2rem);
+  gap: 0.5rem;
+  justify-content: center;
+  margin-top: 1rem;
+  align-items: center;
+}
+/* styles for each letter */
+.letter{
+ 
+  border: solid 2px black;
+  border-radius: 0.2rem;
+  font-size: 1.5rem;
+}

@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+}
+
+/* flex container for the WORD, NOTE THAT THIS IS letterContainer (NO S!) - NOT FOR THE LETTERS, THEY ARE IN A GRID IN THE INDEX.CSS 
+WITH THE CLASS NAME lettersContainer (WITH AN S!)*/
+.letterContainer{
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 5rem;
+  font-size: 5rem;
+}
+.letterContainer:hover{
+  cursor:default;
+}
+
+h1{
+  color: red;
+
+}
+
+h2{
+  font-size: 5rem;
+}
+/* button and button on hover styles*/
+button{
+  margin: 1rem;
+  border-radius: 0.4rem;
+  border-style:ridge;
+  border-color: white;
+  padding: 1rem;
+  color: rgb(78, 21, 21);
+  font-weight: 600;
+}
+button:hover{
+  background-color: gray;
+  cursor: pointer;
+}
+
+/* styles for when hovering the individual letters */
+.letter:hover{
+  cursor: pointer;
+  background-color: rgb(64, 47, 47);
+  color: rgb(133, 133, 133);
+  
+}
